@@ -178,7 +178,6 @@ input, select, textarea {
 		color: #ffffff;
 		font-weight: 600;
 		line-height: 1.5;
-		margin: 0 0 1rem 0;
 		text-transform: uppercase;
 		letter-spacing: 0.2rem;
 	}
@@ -874,6 +873,9 @@ input, select, textarea {
 		}
 
 /* Icons */
+	.margin-top-small {
+		margin-top: 10px;
+	}
 
 	ul.icons {
 		cursor: default;
@@ -1301,6 +1303,9 @@ input, select, textarea {
 				max-height: 40rem;
 				overflow: hidden;
 			}
+				#header .content .inner .hackatren-logo{
+					width: 200px;
+				}
 
 				#header .content .inner > :last-child {
 					margin-bottom: 0;
