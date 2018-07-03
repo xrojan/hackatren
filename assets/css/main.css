@@ -1273,13 +1273,15 @@ input, select, textarea {
 		#header .logo {
 			width: 5.5rem;
 			height: 5.5rem;
-			line-height: 5.5rem;
-			border: solid 1px #ffffff;
+			border: #ffffff solid 1px;
 			border-radius: 100%;
+			background: rgba(255, 255, 255, 0.25);
 		}
 
-			#header .logo .icon:before {
-				font-size: 2rem;
+			#header .logo img {
+				height: 5.5rem;
+				width: 5.5rem;
+				padding: 1.2rem;
 			}
 
 		#header .content {
@@ -1429,9 +1431,11 @@ input, select, textarea {
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
-					font-size: 1.75rem;
-				}
+			#header .logo img {
+				height: 4.75rem;
+				width: 4.75rem;
+				padding: 0.8rem;
+			}
 
 			#header .content .inner {
 				padding: 2.5rem 1rem;
